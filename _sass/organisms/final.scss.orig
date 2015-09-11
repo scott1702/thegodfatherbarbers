@@ -72,16 +72,27 @@
 				}
 
 				&.phone-active {
+<<<<<<< HEAD
+					li:not(:last-child) {
+						opacity: 0;
+
+						a{
+=======
 					.facebook {
 						opacity: 0;
 
 						a {
+>>>>>>> b5cd64e... 2x2
 							width: 0;
 						}
 					}
 
 					.phone {
+<<<<<<< HEAD
+						width: 200px;
+=======
 						width: 72%;
+>>>>>>> b5cd64e... 2x2
 					}
 
 					.phone-number {
@@ -147,7 +158,7 @@
 			.phone-number {
 				transition: .8s;
 				position: absolute;
-				width: 110px;
+				width: 100px;
 				top: 6px;
 				left: -200px;
 				color: white;
